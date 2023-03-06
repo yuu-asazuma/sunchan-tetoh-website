@@ -1,0 +1,58 @@
+#hero {
+    height: 800px;
+    background-image:url("images/places/16697676968268.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#hero-content {
+    width: 900px;
+    background-color: rgb(248, 163, 7);
+    box-shadow: 2px 4px 8px  rgba(253, 96, 5, 0.542);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0 auto;
+    position:relative;
+    top: 100px;
+}
+
+#hero-content h1 {
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+}
+
+#hero-content p {
+    color: brown;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#hero-content a{
+    text-decoration: none;
+    background-color: rgb(236, 207, 45);
+    padding: 12px 24px;
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(9, 106, 55);
+}
+
+#hero-content a:hover{
+background-color: rgb(172, 225, 93);
+}
+
+#Situations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+
+.situation img{
+    height: 200px;
+}
