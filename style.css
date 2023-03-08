@@ -46,13 +46,52 @@
 background-color: rgb(172, 225, 93);
 }
 
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg,rgb(232, 193, 200),rgb(246, 147, 164))
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(133, 2, 90);
+    margin: 24px;
+}
+
 #Situations {
   display: flex;
   width: 90%;
   margin: auto;
+  margin-bottom: 40px;
+}
+
+.Situations {
+    margin: 0 20PX;
+}
+
+.situation {
+    margin: 0 20px;
+    text-transform: uppercase;
 }
 
 
+.situation p {
+     text-align: center;
+     font-size:  24px;
+     color: rgb(235, 121, 140);
+     margin: 20px 0;
+}
+
 .situation img{
     height: 200px;
+    width: 400px;
+    box-shadow: 2px 4px 8px rgb(239, 95, 95);
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.situation strong {
+    color: rgb(219, 83, 106);
 }
