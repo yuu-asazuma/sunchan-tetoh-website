@@ -53,7 +53,7 @@ header a:hover {
 }
 
 footer {
-    background: -moz-linear-gradient(70deg,rgb(175, 78, 94),rgb(228, 167, 177));
+    background: linear-gradient(360deg,rgb(228, 54, 83),rgb(249, 178, 189));
 }
 
 footer li {
