@@ -8,8 +8,16 @@ header {
 }
 
 main ul {
-    width: 800px;
-    margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px 20px;
+}
+
+li:nth-of-type(3) {
+    grid-column: 1 / span 2;
+    
 }
 
 main li {
@@ -21,9 +29,10 @@ main li {
 }
 
 main li img {
-    width: 300px;
-    height: 290px;
+    width: 250px;
+    height: 300px;
 }
+
 
 .tetoh {
     padding: 24px;
@@ -44,4 +53,212 @@ main li img {
 
 .tetoh2 a:hover {
     background-color: rgb(51, 240, 177);
+}
+.sunchan {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(222, 239, 135);
+    box-shadow: 1px 1px 4px rgb(240, 24, 4);
+    
+    
+}
+
+.sunchan2 {
+    text-align: end;
+}
+.sunchan2 a {
+    text-decoration: none;
+    padding: 6px;
+    color:orangered;
+    font-weight: bold;
+}
+
+.sunchan2 a:hover {
+    background-color: rgba(255, 255, 0, 0.915);
+}
+
+.st {
+    padding: 80px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgb(240, 167, 130);
+    box-shadow: 1px 1px 4px rgb(241, 3, 3);
+}
+
+.st2 {
+    text-align: end;
+}
+.st2 a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(113, 4, 22);
+    font-weight: bold;
+}
+
+.st2 a:hover {
+    background-color: rgb(255, 137, 233);
+}
+
+.mattdog {
+    padding: 24px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(103, 169, 118);
+}
+
+.mattdog2 {
+    text-align:end;
+}
+.mattdog2 a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(1, 82, 39);
+    font-weight: bold;
+}
+
+.mattdog2 a:hover {
+    background-color: rgb(8, 238, 162);
+}
+
+.yuu {
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(248, 171, 196);
+    box-shadow: 1px 1px 4px rgb(249, 22, 162);
+}
+
+.yuu2 {
+    text-align: end;
+}
+.yuu2 a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(225, 2, 2);
+    font-weight: bold;
+}
+
+.yuu2 a:hover {
+    background-color:rgb(112, 66, 112);
+}
+
+.wally {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgb(198, 244, 108);
+    box-shadow: 1px 1px 4px rgb(247, 223, 1);
+}
+
+.wally2 {
+    text-align: end;
+}
+.wally2 a {
+    text-decoration: none;
+    padding: 6px;
+    color: blue;
+    font-weight: bold;
+}
+
+.wally2 a:hover {
+    background-color: rgb(0, 176, 186);
+}
+
+.monster {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(161, 160, 160);
+    box-shadow: 1px 1px 4px rgb(240, 24, 4);
+}
+
+.monster2 {
+    text-align: end;
+}
+.monster2 a {
+    text-decoration: none;
+    padding: 6px;
+    color: black;
+    font-weight: bold;
+}
+
+.monster2 a:hover {
+    background-color: rgb(25, 104, 79);
+}
+
+.puuchan {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: rgb(197, 110, 124);
+    box-shadow: 1px 1px 4px rgb(81, 1, 47);
+}
+
+.puuchan2 {
+    text-align:end;
+}
+.puuchan2 a {
+    text-decoration: none;
+    padding: 8px;
+    color: purple;
+    font-weight: bold;
+}
+
+.puuchan2 a:hover {
+    background-color: rgb(246, 139, 139);
+}
+
+.piichan {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(134, 134, 248);
+    box-shadow: 1px 1px 4px rgb(122, 34, 156);
+}
+
+.piichan2 {
+    text-align: end;
+}
+.piichan2 a {
+    text-decoration: none;
+    padding: 6px;
+    color: green;
+    font-weight: bold;
+}
+
+.piichan2 a:hover {
+    background-color: rgb(51, 240, 177);
+}
+
+.ponta {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 4px rgb(22, 216, 246);
+}
+
+.ponta2 {
+    text-align: end;
+}
+.ponta2 a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(244, 80, 107);
+    font-weight: bold;
+}
+
+.ponta2 a:hover {
+    background-color: rgb(249, 171, 111);
 }
